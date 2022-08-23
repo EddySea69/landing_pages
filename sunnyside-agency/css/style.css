@@ -1,0 +1,577 @@
+body{
+    
+    font-size: 18px;
+    
+}
+
+
+
+@font-face{
+    font-family: Barlow;
+    src: url(../fonts/Barlow.otf);
+}
+
+@font-face{
+    font-family: Fraunces;
+    src: url(../fonts/frauncessoftwonkopszwght.ttf);
+}
+
+
+.row{
+    margin: 0;
+}
+
+
+nav ul{
+    margin-left: auto; 
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:hsl(0, 0%, 100%);
+    font-family: Barlow;
+    margin-right: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: hsl(212, 27%, 19%);
+    font-family: Fraunces;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: hsl(0, 0%, 100%);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active:hover{
+    background-color:  #90d4c5;
+    color: hsl(0, 0%, 100%);
+       
+    
+}
+
+.navbar-brand{
+    color:hsl(0, 0%, 100%);
+    font-family: Barlow;
+    font-weight: 600;
+}
+
+
+.intro-section{
+    
+    background: url(../images/desktop/image-header.jpg) no-repeat;
+    background-size:cover;  
+    background-position: center;
+    margin: 0px;
+    max-width: 100%;
+    
+    
+}
+
+.intro-section h1{
+    color:hsl(0, 0%, 100%);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-family: Fraunces;
+    font-weight: 900;
+    
+}
+
+.intro-section img{
+    margin-bottom: 310px; 
+}
+
+/* fim intro section */
+
+
+
+/* section-1 */
+
+.trsform h2{
+    font-family: Fraunces;
+    font-weight: bold;    
+    margin-bottom: 40px;
+    padding-right: 150px;
+    color: hsl(212, 27%, 19%);
+}
+
+.trsform p{
+    font-family: Barlow;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: gray;
+}
+
+.trsform a{
+    font-family: Fraunces;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(212, 27%, 19%);
+    text-decoration: none;
+    border-bottom: solid 2px #fff1c0;      
+}
+
+.trsform a:hover{
+    border-bottom: solid 3px hsl(51, 100%, 49%);   
+}
+
+.trsform{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 120px;    
+    padding-bottom: 100px;
+}
+
+.section-1 .trans-img{
+    padding:0;
+    background: url(../images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* end section-1 */
+
+
+
+/* section-2 */
+
+.stand-img{
+    
+    background: url(../images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2 .trsform h2 {
+    padding-right: 100px;        
+} 
+
+.section-2 .trsform a{ 
+    border-bottom: solid 2px #ffdbd3;       
+}
+
+.section-2 .trsform a:hover{
+    border-bottom: solid 3px #f7ae9d;  ;   
+}
+
+
+/* end section-2 */
+
+/* section-3 */
+
+.section-3 .trans-img{
+    padding: 500px 170px 60px 170px;    
+}
+
+.graphic{
+
+    background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+}
+
+.photography{
+    background: url(../images/desktop/image-photography.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+    text-align: center;    
+}
+
+.section-3 h2{
+    font-family: Fraunces;
+    font-weight: bold;
+    text-transform: capitalize;    
+} 
+
+.section-3 p{
+
+    font-family: Barlow;
+    font-weight: 600;   
+}
+
+
+/* .section-4 */
+
+.section-4{
+    padding-top: 150px;
+    padding-bottom:150px;
+    text-align: center;
+    color: gray;
+    font-family: Fraunces;
+    font-weight: 700;
+    justify-content: center;    
+}
+
+.section-4 h3{    
+    text-transform: uppercase;
+    margin-bottom: 40px;        
+}
+
+.section-4 p{    
+   
+    margin-bottom: 60px; 
+    color: gray;
+
+}
+
+.section-4 .nome{
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);  
+    font-size: 20px;
+    margin-bottom: 10px;  
+}
+
+.section-4 .cargo{
+    font-size: 12px;
+    margin-bottom: 10px; 
+}
+
+.section-4 .rounded-circle{
+    width: 80px;
+    margin-bottom: 60px;
+}
+
+.section-4 .col-lg-4{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* .section-5 */
+
+.section-5 .col-lg-3{
+    padding: 0;
+}
+
+/* footer */
+
+.page-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #90d4c5;
+}
+    
+
+.page-footer .navbar-brand{
+    color: hsl(167, 40%, 24%);
+    font-size: 40px;  
+    margin-right: 0;  
+}
+
+
+.page-footer .list-unstyled{
+    display: inline-flex;
+    text-align: center;  
+        
+}
+
+.page-footer .list-unstyled li{
+     margin-right: 40px;
+     margin-left: 40px;
+     margin-bottom: 20px;
+}
+.page-footer .list-unstyled li a{
+    
+    color: #478b7c;
+    text-decoration: none;
+    font-family: Barlow;  
+    font-weight: 600;
+}
+
+.page-footer .list-unstyled li a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.page-footer  .col-12{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.page-footer .social i{
+    font-size: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color:hsl(167, 40%, 24%) ;
+}
+
+.page-footer .social i:hover{
+    color: hsl(0, 0%, 100%);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive on tablet */
+
+
+@media screen and (max-width:991px){ 
+
+
+    .intro-section h1{
+        margin-bottom: 40px;        
+    }
+
+    .intro-section img{
+        margin-bottom: 280px; 
+    }
+
+    nav ul{
+        margin:0; 
+        text-align: center;
+    }
+
+
+    .navbar-dark .navbar-nav .nav-link{
+        margin-right: 0;
+        margin-bottom: 15px;
+        color: hsl(232, 10%, 55%);
+    }
+    
+    .navbar-dark .navbar-nav .nav-link.active{
+        background-color:  hsl(51, 100%, 49%);
+        padding: 0;            
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: content-box;       
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 50px;
+    }
+
+    .navbar-collapse{
+        background-color: hsl(0, 0%, 100%) ;
+    }
+
+
+    /* setion-1 */
+
+    .section-1{
+        flex-direction: column-reverse;
+    }
+
+    .section-1 .trans-img{
+        background: url(../images/mobile/image-transform.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 400px 10px 300px 10px;    
+    }
+
+    /* setion-1 end*/
+
+     /* section-2 */
+
+    .stand-img{        
+        background: url(../images/mobile/image-stand-out.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 400px 10px 300px 10px;        
+    }
+
+
+    /* .section-4 */
+
+    .section-4{
+        padding-top: 50px;
+        padding-bottom:0px;        
+    }
+
+    .section-4 p{ 
+        margin-bottom: 20px; 
+    }
+    
+    .section-4 .nome{
+        margin-bottom: 10px;  
+    }
+    
+    .section-4 .cargo{
+        margin-bottom: 60px; 
+    }
+    
+    .section-4 .rounded-circle{
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive on mobile */
+@media screen and (max-width:575px){ 
+
+    .intro-section{
+        background: url(../images/mobile/image-header.jpg) no-repeat; 
+        background-size:cover;  
+        background-position: center;        
+    }
+
+    .intro-section img{
+        margin-bottom: 130px; 
+    }
+
+    /* setion-1 */
+
+    .trsform{
+        padding: 0px;  
+        text-align: center;
+        padding-top: 60px;
+        padding-right: 30px;
+        padding-left: 30px;        
+        padding-bottom: 60px;
+    }
+
+
+    .trsform h2{
+        margin-bottom: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+        
+    }
+    
+    .trsform p{
+        margin-bottom: 40px;
+        
+    }  
+
+    .section-1 .trans-img{
+        padding: 200px 10px 100px 10px;    
+    }
+
+    /* section-2 */
+
+    .stand-img{       
+        
+        padding: 200px 10px 100px 10px;    
+
+    }
+    
+    .section-2 .trsform h2 {
+        padding-right: 40px;            
+    } 
+
+
+   /* .section-3 */
+
+
+   .section-3 .trans-img{
+        padding: 400px 10px 40px 10px;
+    }
+
+    .graphic{    
+
+    background: url(../images/mobile/image-graphic-design.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;        
+    text-align: center;
+    
+    }    
+
+    .photography{ 
+
+    background: url(../images/mobile/image-photography.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;        
+    text-align: center;        
+    }
+
+
+    
+    
+    /* section-4 */
+
+    .section-4 p{
+        margin-bottom: 30px; 
+    }
+
+    .section-4 .nome{
+        margin-bottom: 10px;
+    }
+
+    .section-4 .cargo{    
+        margin-bottom: 80px; 
+    }
+
+
+    .section-4 .rounded-circle{
+        width: 60px;
+        margin-bottom: 30px;
+    }
+
+
+    /* footer */
+
+    .page-footer .list-unstyled li{
+        margin-right: 10px;
+        margin-left: 10px;    
+    }
+
+
+    .page-footer .social i{
+        margin-right: 5px;
+        margin-left: 5px;
+        
+    }
+
+
+
+
+
+
+ 
+
+
+}
